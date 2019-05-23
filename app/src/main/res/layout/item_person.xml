@@ -8,6 +8,10 @@
                                         android:layout_width="match_parent"
                                         android:padding="10dp"
                                         android:elevation="@dimen/cardview_default_radius"
+                                        android:clipToPadding="true"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginRight="5dp"
                                         bind:cardCornerRadius="@dimen/cardview_default_radius"
                                         android:layout_height="wrap_content">
         <include layout="@layout/item_person_view" android:id="@+id/frontview" bind:viewperson="@{person}"/>
